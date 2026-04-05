@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Studio — Preview Local</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        h1 { color: #1a1a2e; margin-bottom: 20px; }
+        p { color: #666; margin-bottom: 30px; line-height: 1.7; }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #00d2ff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .btn:hover { background: #00a8cc; transform: translateY(-2px); }
+        .steps { text-align: left; background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 30px 0; }
+        .steps h3 { color: #1a1a2e; margin-bottom: 15px; }
+        .steps ol { margin-left: 20px; }
+        .steps li { margin-bottom: 10px; color: #555; }
+        .footer { margin-top: 40px; color: #999; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Visual Studio — Preview Local</h1>
+        <p>Este é um preview do site que acabamos de criar. Abra <strong>index.html</strong> diretamente no navegador para ver o site completo!</p>
+        
+        <a href="index.html" class="btn">Abrir o Site</a>
+        
+        <div class="steps">
+            <h3>Como hospedar no GitHub:</h3>
+            <ol>
+                <li>Crie um repositório em github.com chamado <strong>visualstudio.com.br</strong></li>
+                <li>Conecte este diretório ao seu repositório:</li>
+                <li><code>git remote add origin https://github.com/SEU-USUARIO/visualstudio.com.br.git</code></li>
+                <li>Envie as mudanças: <code>git push -u origin master</code></li>
+                <li>Vá para Settings → Pages e selecione <strong>master</strong> branch</li>
+                <li>Após alguns minutos, seu site estará em: <code>SEU-USUARIO.github.io/visualstudio.com.br</code></li>
+            </ol>
+        </div>
+        
+        <div class="footer">
+            <p>Feito com ❤️ pela Yiellem Assistant</p>
+            <p>Próximo check: 5 minutos 🔄</p>
+        </div>
+    </div>
+</body>
+</html>
