@@ -1,0 +1,2 @@
+# Placeholder para favicon.ico
+# Você pode substituir este arquivo por uma imagem .ico real

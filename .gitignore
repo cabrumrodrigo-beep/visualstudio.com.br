@@ -1,0 +1,33 @@
+# Node modules (se você adicionar ferramentas de build no futuro)
+node_modules/
+
+# Arquivos locais
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Arquivos sensíveis (nunca commitar!)
+configs/*.json
+configs/*.env
+secrets/
+
+# Backup
+*.bak
+*.backup
+
+# Arquivos grandes
+dist/
+build/
